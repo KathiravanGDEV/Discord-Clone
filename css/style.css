@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: blue;
 }
 .header {
   width: 100vw;
@@ -32,4 +33,47 @@ body {
   justify-content: flex-end;
   align-items: center;
   align-content: flex-end;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-download {
+  width: 40%;
+  height: 40%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+
+.btn-download img {
+  width: 5%;
+  height: 5%;
+}
+
+.btn-download a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-submit {
+  width: 40%;
+  height: 40%;
+  padding: 1rem;
+  
+}
+.btn-submit button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
 }
